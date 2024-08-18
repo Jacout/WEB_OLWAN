@@ -66,28 +66,43 @@
                     protegiendo sus intereses de manera eficaz
                     </span>
                   </p>
-                  <p></p>
-                  <p></p>
             </div>
-            <div class="container p-3 mx-auto">
-                <section class="redes-sociales">
-                <a href="https://www.facebook.com/"><img src="logo-facebook.jpg" alt="Logo de Facebook"></a>
-                <a href="https://www.twitter.com/"><img src="logo-twitter.jpg" alt="Logo de Twitter"></a>
-                <a href="https://www.instagram.com/"><img src="logo-instagram.jpg" alt="Logo de Instagram"></a>
-              </section>
-              <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre"><br><br>
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje"></textarea><br><br>
-                <input type="submit" value="Enviar">
-              </form>
+            <div class="container-fluid p-3" style="background-color: gray;">
+              <div class="row">
+                <div class="col-md-6 float-left">
+                  <section class="redes-sociales">
+                    <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/256/20/20673.png" style="width: 10%; height: 10%;" alt="Logo de Facebook">OLWAN S.C.</a>
+                    <br>
+                    <a href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" style="width: 10%; height: 10%;" alt="Logo de Instagram">olwansc</a>
+                    <br>
+                    <a href="https://www.instagram.com/"><img src="https://static.vecteezy.com/system/resources/previews/020/009/614/non_2x/email-and-mail-icon-black-free-png.png" style="width: 10%; height: 10%;" alt="Logo de Correo">contacto@olwan.com.mx</a>
+                  </section>
+                </div>
+                <div class="col-md-6 float-right">
+                  <form class="form-inline">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" class="form-control"></textarea>
+                    <label for="tipo">Materia:</label>
+                    <select class="form-select" id="validationCustom04" required>
+                      <option selected disabled value="">Escoge la materia...</option>
+                      <option value="">Laboral</option>
+                      <option value="">Transporte</option>
+                      <option value="">Personal</option>
+                      <option value="">Judicial</option>  
+                    </select>
+                    <br>
+                    <input type="submit" value="Enviar" class="btn btn-light text-dark">
+                  </form>
+                </div>
+              </div>
             </div>
+
           </div>
 	</main>
-	<script src="(link unavailable)"></script>
 </body>
 </html>
 
