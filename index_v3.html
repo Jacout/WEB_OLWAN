@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width =device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios Jurídicos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
@@ -12,15 +12,45 @@
             background-position: center;
         }
         .navbar {
-            background-color: #f7f7f7; /* light gray background for navbars */
+            background-color: #333; /* dark gray background for navbar */
+            padding: 1rem;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+        .navbar-nav {
+            margin-left: 20px;
+        }
+        .navbar-nav a {
+            color: #fff;
+            transition: color 0.2s ease;
+        }
+        .navbar-nav a:hover {
+            color: #ccc;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="logo.jpg" alt="Logo" width="30" height="30"> <!-- replace with your logo -->
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Servicios Jurídicos</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,9 +68,10 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid" style="min-height: 100vh; padding-top: 50px; padding-bottom: 50px;">
-        <h1>Servicios Jurídicos</h1>
-        <p>Texto de presentación</p>
+    <div class="hero">
+        <h1>Servicios Jurídicos de alta calidad</h1>
+        <p>Nuestros abogados están comprometidos con la excelencia y la satisfacción del cliente</p>
+        <button class="btn btn-primary">Contactanos</button>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light" id="contact-navbar">
         <div class="container">
